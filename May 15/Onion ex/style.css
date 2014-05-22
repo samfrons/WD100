@@ -1,0 +1,79 @@
+/** Onion Style Sheet **/
+
+h1 {
+	color: darkgreen;
+}
+
+h1, h2 {
+	font-family: Georgia;
+	text-align: center;
+}
+
+p {
+	line-height: 19px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.ymal {
+	text-transform: uppercase;
+}
+
+/** Extra Stuff **/
+
+#firstLine {
+	margin-right: .5em;
+}
+
+.imageFrame {
+	background-color: lightgrey;
+	width: 70%;
+	margin: 5%;
+}
+
+.imageFrame:hover {
+	border-radius: 10%;
+	background-color: black;
+}
+
+img {
+	width: 90%;
+	margin: 5%;
+}
+
+img:hover {
+	opacity: 0;
+}
+
+ul {
+	background-color: lightgrey;
+	padding: 2%;
+	list-style: none;
+	max-width: inherit;
+}
+
+li:hover {
+	text-decoration: line-through;
+}
+
+.blackOut:hover {
+	background: black;
+	color: black;
+}
+
+/*
+div ~ img {
+	
+}
+*/
+
+
+
+
+

@@ -1,0 +1,112 @@
+/** CSS **/
+
+body {
+	background-image: url("images/texture1.jpg");
+	background-attachment: fixed;
+	font-family: Times, Georgia, serif
+}
+
+.wrapper {
+	max-width: 98%;
+}
+
+#picbar {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(241,241,212,0.7);
+	padding: 2%;
+	border-bottom-right-radius: 90px;
+	border-bottom-left-radius: 90px;
+	background-image: url("images/flag.jpg")
+}
+
+.navpics {
+	display: inline;
+	height: 200px;
+	width: 15%;
+	margin: 0 auto;
+	border-radius: 100px;
+	border: 5px solid rgba(0,0,0,0);
+}
+
+.posted:hover {
+	border: 5px solid green;
+}
+
+.notposted:hover {
+	border: 5px solid rgba(200,0,0,1);
+}
+
+.intro, .lecture, .achievements, .quotes, .resources {
+	position: relative;
+	background-color: rgba(250,250,250,0.2);
+	border: 3px solid rgba(250,250,250,0.6);
+	padding: 2%;
+	margin-top: 10px;
+	color: rgba(60,22,22,1);
+}
+
+.intro {
+	margin-top: 275px;
+}
+
+.lecture {
+}
+
+.video {
+	width: 560px; 
+	height: 315px;
+}
+
+/** Mostly for the links **/
+
+#main-nav {
+	font-family: cursive, Times, serif;
+	font-size: 1.5em;
+	list-style: none;
+}
+
+#main-nav li a {
+	max-width: 10%;
+	text-decoration: none;
+	color: brown;
+}
+
+#main-nav li a:hover {
+	border: 2px solid grey;
+	border-radius: 100%;
+	color: black;
+}
+
+.achievements, .quotes, .resources {
+	float: left;
+	max-width: 40%;
+	margin: 1%;
+}
+
+.snapshot {
+	max-width: 89%;
+	position: relative;
+	padding: 1%;
+	background-color: rgba(212,56,175,0.2);
+	border: 3px solid rgba(250,250,250,0.6);
+	margin: 1%;
+}
+
+#crossingTheDelaware {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.compare {
+	background-image: none;
+	background-color: rgba(15,15,15,.1);
+	clear: both;
+}
+
+th, td{
+	padding: 1em;
+}
