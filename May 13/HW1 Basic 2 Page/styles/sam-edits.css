@@ -1,0 +1,51 @@
+#main-nav {
+	padding: 0 0 0 1%;
+	max-width: 100%;
+	font-size: 1.4em;
+}
+
+
+#main-nav li a {
+	padding: 8px;
+}
+
+.min-width {
+	min-width: 335px;
+}
+/* added  a min-width so that the elements don't squeeze in so much */
+
+.comparison-table {
+	display: block;
+	clear: left;
+}
+/* the display:block overrides a tags inherent inline property and then i clear the above two left floats so it collapses to the bottom */
+
+.navpics {
+	height: auto;
+	width: 13%;
+	max-width: 180px;
+}
+/* setting height: auto makes sure the pictures don't warp. giving them a % width and pixel max-width makes them scale but never get too big*/
+
+#picbar a {
+	text-decoration: none;
+}
+/* removes blue lines */
+
+/*
+.comparet {
+	background: rgba(250,250,250,0.9);
+}
+this is where you would give the table a background */
+
+.intro {
+margin-top: 28%;
+}
+/* this is a better way to organize the fixed header and intro element. % margin makes it so they don't stay down 275px in smaller broser sizes */ 
+
+
+.video {
+	width: 100%;
+}
+
+/* this makes the video iframe scale in width so it doesn't go over in smaller browser windows and look too smaller on larger views */
